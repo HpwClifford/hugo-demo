@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://hpwclifford.github.io/hugo-demo/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 # Change the default theme to be use when building the site with Hugo
