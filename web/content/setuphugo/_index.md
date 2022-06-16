@@ -26,7 +26,7 @@ git submodule add https://github.com/matcornic/hugo-theme-learn web/themes/hugo-
 
 And that's it! We have the basic setup to build a hugo site. Let's get building!
 
-Note: from here on out, all commands should be executed from the **web/** directory.
+Note: from here on out, all commands should be executed from the **_web/_** directory.
 
 ## II.) creating site content
 
@@ -36,7 +36,7 @@ We can use the hugo cli to start a local development server:
 hugo server
 ```
 
-This will default to serve our site at **https://localhost:1313/our-repo/**
+This will provide a fast-reloading dev environment and will default to serve our site at **https://localhost:1313/our-repo/**
 
 ```sh
 Start building sites … 
@@ -63,7 +63,7 @@ Web Server is available at http://localhost:1313/hugo-demo/ (bind address 127.0.
 Press Ctrl+C to stop
 ```
 
-From here we can use hugo and our configured theme to build the site. Links:
+From here we can use hugo and our configured theme to build the site. Links to docs:
 
 [Hugo Docs](https://gohugo.io/documentation/)
 
