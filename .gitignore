@@ -18,4 +18,4 @@
 .DS_Store
 
 # hugo
-web/public/
+/web/public/
