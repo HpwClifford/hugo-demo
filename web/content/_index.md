@@ -8,9 +8,38 @@ pre = "<b>X. </b>"
 
 # **Landing Page**
 
+## Heading 1
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quam id leo in vitae turpis massa sed. Ut aliquam purus sit amet luctus venenatis lectus. Sed adipiscing diam donec adipiscing tristique. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Id leo in vitae turpis. Vel pretium lectus quam id leo in vitae turpis massa. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Nisl tincidunt eget nullam non nisi est sit amet. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Egestas sed sed risus pretium quam.
 
+```go
+package server
+
+import (
+    "fmt"
+
+    "github.com/somerepo/internal/fruitbasket"
+    "github.com/someotherrepo/sharedrepo/shared/fruit"
+)
+
+type FruitServer struct {
+    mgr *fruitBasket.Manager
+}
+
+func NewFruitServer(mgr *fruitBasket.Manager) *FruitServer {
+    return &FruitServer{
+        mgr: mgr,
+    }
+}
+
+func (s *FruitServer) ListBananas(ctx context.Context, req *sharedrepo.ListBananasRequest) (*sharedrepo.ListBananasResponse, error) {
+    // Some code . . .
+}
+```
+
 Donec massa sapien faucibus et molestie. Suspendisse sed nisi lacus sed viverra tellus. At lectus urna duis convallis convallis. Turpis nunc eget lorem dolor sed viverra. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Nibh mauris cursus mattis molestie. Sed vulputate mi sit amet mauris commodo. Duis tristique sollicitudin nibh sit amet. Cursus vitae congue mauris rhoncus aenean vel. Neque gravida in fermentum et sollicitudin ac orci.
+
+## Heading 2
 
 Nunc non blandit massa enim. Sit amet consectetur adipiscing elit. Tristique senectus et netus et malesuada fames ac. Donec et odio pellentesque diam volutpat commodo sed egestas. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Quisque sagittis purus sit amet volutpat. Donec et odio pellentesque diam volutpat commodo sed. Sed enim ut sem viverra. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Faucibus nisl tincidunt eget nullam non nisi est. Pellentesque pulvinar pellentesque habitant morbi. Est ante in nibh mauris cursus mattis molestie a iaculis.
 
