@@ -19,20 +19,20 @@ import (
     "fmt"
 
     "github.com/somerepo/internal/fruitbasket"
-    "github.com/someotherrepo/sharedrepo/shared/fruit"
+    "github.com/sharedrepo/shared/fruitserver"
 )
 
 type FruitServer struct {
-    mgr *fruitBasket.Manager
+    mgr *fruitbasket.Manager
 }
 
-func NewFruitServer(mgr *fruitBasket.Manager) *FruitServer {
+func NewFruitServer(mgr *fruitbasket.Manager) *FruitServer {
     return &FruitServer{
         mgr: mgr,
     }
 }
 
-func (s *FruitServer) ListBananas(ctx context.Context, req *sharedrepo.ListBananasRequest) (*sharedrepo.ListBananasResponse, error) {
+func (s *FruitServer) ListBananas(ctx context.Context, req *fruitserver.ListBananasRequest) (*fruitserver.ListBananasResponse, error) {
     // Some code . . .
 }
 ```
