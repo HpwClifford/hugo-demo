@@ -1,14 +1,14 @@
 +++
-title = "Home"
+title = "Weave Docs"
 date = 2022-06-14T23:04:27-04:00
 weight = 5
 chapter = false
 pre = "<b>X. </b>"
 +++
 
-# Welcome
+# Example Site
 
-This is an example of a pretty basic hugo site using a free community theme.
+#### This is an example of a pretty basic hugo site using a free community theme.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa placerat duis. Venenatis a condimentum vitae sapien. Urna et pharetra pharetra massa massa ultricies. Euismod in pellentesque massa placerat duis ultricies lacus sed. Rhoncus urna neque viverra justo nec ultrices dui sapien. Arcu non sodales neque sodales ut etiam sit amet. Nec dui nunc mattis enim ut. Commodo viverra maecenas accumsan lacus vel facilisis. Nec dui nunc mattis enim ut tellus elementum sagittis. Pellentesque elit eget gravida cum sociis natoque penatibus. Fermentum dui faucibus in ornare quam viverra. Nisl nisi scelerisque eu ultrices vitae auctor.
 
