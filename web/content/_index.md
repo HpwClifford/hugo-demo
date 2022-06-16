@@ -6,7 +6,7 @@ chapter = false
 pre = "<b>X. </b>"
 +++
 
-# Example Site
+# **Landing Page**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quam id leo in vitae turpis massa sed. Ut aliquam purus sit amet luctus venenatis lectus. Sed adipiscing diam donec adipiscing tristique. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Id leo in vitae turpis. Vel pretium lectus quam id leo in vitae turpis massa. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Nisl tincidunt eget nullam non nisi est sit amet. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Egestas sed sed risus pretium quam.
 
