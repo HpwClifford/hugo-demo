@@ -68,3 +68,5 @@ From here we can use hugo and our configured theme to build the site. Links to d
 [Hugo Docs](https://gohugo.io/documentation/)
 
 [Learn Theme Docs](https://learn.netlify.app/en/)
+
+Check out the source code for this site [here](https://github.com/HpwClifford/hugo-demo)
